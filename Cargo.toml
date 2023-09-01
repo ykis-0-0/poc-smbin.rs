@@ -1,0 +1,17 @@
+[package]
+name = "smbin"
+version = "0.0.0-alpha"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+object = "*"
+clap = { version = "*", features = ["derive", "cargo"] }
+log = "*"
+eyre = "*"
+color-eyre = "*"
+simplelog = "*"
+
+# [lib]
+# path = "src/lib/mod.rs"
